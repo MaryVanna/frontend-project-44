@@ -10,6 +10,7 @@ const isEven = (num) => {
 
 const isEvenGame = () => {
   const userName = greeting();
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < numberOfGames; i += 1) {
     const guessedNumber = getRandomNumber();
     console.log(`Question: ${guessedNumber}`);
