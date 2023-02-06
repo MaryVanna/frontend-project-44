@@ -9,3 +9,5 @@ Game presentations:
 • [brain-calc](https://asciinema.org/a/78zn7NKGwFdSFLyE1Rx0FoJQL);
 
 • [brain-gcd](https://asciinema.org/a/vUXtMUsVNofA8NxlPFFkFWWty);
+
+• [brain-progression](https://asciinema.org/a/JI3VtDM48BKoWVb0yLktotcjo);
