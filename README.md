@@ -7,3 +7,5 @@ Game presentations:
 • [brain-even](https://asciinema.org/a/nGnmWAUtKKb68FvvBqCN5rRrt);
 
 • [brain-calc](https://asciinema.org/a/78zn7NKGwFdSFLyE1Rx0FoJQL);
+
+• [brain-gcd](https://asciinema.org/a/vUXtMUsVNofA8NxlPFFkFWWty);
