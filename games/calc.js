@@ -5,6 +5,22 @@ import {
 
 const arrOfOperators = ['-', '+', '*'];
 
+const calc = (firstOperand, operator, secondOperand) => {
+  let result;
+    switch (operator) {
+      case '-':
+        result = firstOperand - secondOperand;
+        break;
+      case '+':
+        result = firstOperand + secondOperand;
+        break;
+      case '*':
+        result = firstOperand * secondOperand;
+        break;
+    }
+  return result;
+};
+
 const calcGame = () => {
   const userName = greeting();
   console.log('What is the result of the expression?');
@@ -14,18 +30,7 @@ const calcGame = () => {
     const operator = getRandElement(arrOfOperators);
     console.log(`Question: ${firstOperand} ${operator} ${secondOperand}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    let rightAnswer;
-    switch (operator) {
-      case '-':
-        rightAnswer = firstOperand - secondOperand;
-        break;
-      case '+':
-        rightAnswer = firstOperand + secondOperand;
-        break;
-      case '*':
-        rightAnswer = firstOperand * secondOperand;
-        break;
-    }
+    const rightAnswer = calc(firstOperand, operator, secondOperand);
     if (rightAnswer != userAnswer) {
       return `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`;
     }
