@@ -13,16 +13,14 @@ const isPrime = (num) => {
   return 'yes';
 };
 
-const message = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-
 const primeGame = () => {
   const userName = greeting();
-  console.log(message);
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
   for (let i = 0; i < numberOfGames; i += 1) {
-    const number = getRandomNumber();
-    console.log(`Question: ${number}`);
+    const guessedNumber = getRandomNumber();
+    console.log(`Question: ${guessedNumber}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const rightAnswer = isPrime(number);
+    const rightAnswer = isPrime(guessedNumber);
     if (userAnswer.toLowerCase() !== rightAnswer) {
       return `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`;
     }
