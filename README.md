@@ -4,7 +4,9 @@
 
 Game presentations:
 
-• [brain-even](https://asciinema.org/a/nGnmWAUtKKb68FvvBqCN5rRrt);
+• [brain-games](https://asciinema.org/a/TJ5g2brO7uDn8PwcnRWRpZLdL);
+
+• [brain-even](https://asciinema.org/a/Rnv684VsL4oNpmXdjVuOG7GsP);
 
 • [brain-calc](https://asciinema.org/a/78zn7NKGwFdSFLyE1Rx0FoJQL);
 
