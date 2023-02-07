@@ -18,42 +18,48 @@ Made as the first educational project on hexlet [hexlet.io](https://hexlet.io).
 
 
 
-#### Brain-games (greeting)
+
+## 👋 Brain-games (greeting)
 
 Running the game and greeting a new user.
 
 [![asciicast](https://asciinema.org/a/TJ5g2brO7uDn8PwcnRWRpZLdL.svg)](https://asciinema.org/a/TJ5g2brO7uDn8PwcnRWRpZLdL)
 
 
-#### Brain-even
+
+## 2️⃣ Brain-even
 
 Guessing whether a number is even or not.
 
 [![asciicast](https://asciinema.org/a/Rnv684VsL4oNpmXdjVuOG7GsP.svg)](https://asciinema.org/a/Rnv684VsL4oNpmXdjVuOG7GsP)
 
 
-#### Brain-calc
+
+## 🧮 Brain-calc
 
 Calculating the expression.
 
 [![asciicast](https://asciinema.org/a/78zn7NKGwFdSFLyE1Rx0FoJQL.svg)](https://asciinema.org/a/78zn7NKGwFdSFLyE1Rx0FoJQL)
 
 
-#### Brain-gcd
+
+## ➗ Brain-gcd
 
 Calculating the greatest common divisor of two numbers.
 
 [![asciicast](https://asciinema.org/a/vUXtMUsVNofA8NxlPFFkFWWty.svg)](https://asciinema.org/a/vUXtMUsVNofA8NxlPFFkFWWty)
 
 
-#### Brain-progression
+
+## ⬆️ Brain-progression
 
 Guessing the missing number in arithmetic progression.
 
 [![asciicast](https://asciinema.org/a/JI3VtDM48BKoWVb0yLktotcjo.svg)](https://asciinema.org/a/JI3VtDM48BKoWVb0yLktotcjo)
 
 
-#### Brain-prime
+
+## 🗿 Brain-prime
 
 Guessing whether a number is prime or not.
 
