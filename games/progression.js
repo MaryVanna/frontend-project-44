@@ -25,7 +25,7 @@ const progressionGame = () => {
     numbersArr[indexOfElement] = '..';
     console.log(`Question: ${numbersArr.join(' ')}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (rightAnswer != userAnswer) {
+    if (rightAnswer.toString() !== userAnswer) {
       return `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`;
     }
     console.log('Correct!');

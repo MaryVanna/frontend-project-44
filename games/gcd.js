@@ -20,8 +20,8 @@ const gcdGame = () => {
     const secondNumber = getRandomNumber();
     console.log(`Question: ${firstNumber} ${secondNumber}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const rightAnswer = getGCD(firstNumber, secondNumber);
-    if (rightAnswer != userAnswer) {
+    const rightAnswer = getGCD(firstNumber, secondNumber).toString();
+    if (rightAnswer !== userAnswer) {
       return `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`;
     }
     console.log('Correct!');

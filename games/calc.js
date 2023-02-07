@@ -7,17 +7,19 @@ const arrOfOperators = ['-', '+', '*'];
 
 const calc = (firstOperand, operator, secondOperand) => {
   let result;
-    switch (operator) {
-      case '-':
-        result = firstOperand - secondOperand;
-        break;
-      case '+':
-        result = firstOperand + secondOperand;
-        break;
-      case '*':
-        result = firstOperand * secondOperand;
-        break;
-    }
+  switch (operator) {
+    case '-':
+      result = firstOperand - secondOperand;
+      break;
+    case '+':
+      result = firstOperand + secondOperand;
+      break;
+    case '*':
+      result = firstOperand * secondOperand;
+      break;
+    default:
+      break;
+  }
   return result;
 };
 
@@ -30,8 +32,8 @@ const calcGame = () => {
     const operator = getRandElement(arrOfOperators);
     console.log(`Question: ${firstOperand} ${operator} ${secondOperand}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const rightAnswer = calc(firstOperand, operator, secondOperand);
-    if (rightAnswer != userAnswer) {
+    const rightAnswer = calc(firstOperand, operator, secondOperand).toString();
+    if (rightAnswer !== userAnswer) {
       return `'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`;
     }
     console.log('Correct!');
