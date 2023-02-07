@@ -6,8 +6,8 @@ import {
 const progression = (numberOfElements) => {
   const result = [];
   for (let num = getRandomNumber(), i = 0, step = getRandomNumber(10) + 1;
-       i < numberOfElements;
-       i += 1, num += step) {
+    i < numberOfElements;
+    i += 1, num += step) {
     result.push(num);
   }
   return result;

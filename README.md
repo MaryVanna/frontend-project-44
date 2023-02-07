@@ -11,3 +11,5 @@ Game presentations:
 • [brain-gcd](https://asciinema.org/a/vUXtMUsVNofA8NxlPFFkFWWty);
 
 • [brain-progression](https://asciinema.org/a/JI3VtDM48BKoWVb0yLktotcjo);
+
+• [brain-prime](https://asciinema.org/a/mw8WFp1VfARUFtLDt6E7UACnl).
