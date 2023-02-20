@@ -1,8 +1,26 @@
-import { calc, getRandomNumber } from '../utils.js';
+import getRandomNumber from '../utils.js';
 import { startGame } from '../index.js';
 
 const arrOfOperators = ['-', '+', '*'];
 const descr = 'What is the result of the expression?';
+
+const calc = (firstOperand, operator, secondOperand) => {
+  let result;
+  switch (operator) {
+    case '-':
+      result = firstOperand - secondOperand;
+      break;
+    case '+':
+      result = firstOperand + secondOperand;
+      break;
+    case '*':
+      result = firstOperand * secondOperand;
+      break;
+    default:
+      break;
+  }
+  return result;
+};
 
 const calcGame = () => {
   const firstOperand = getRandomNumber(1, 10);
