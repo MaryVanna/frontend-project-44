@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.2.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/MaryVanna/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/MaryVanna/frontend-project-44/actions)",
+  "description": "Brain-games is a set of math games (Project 1, hexlet.io, JS Frontend)",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
