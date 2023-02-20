@@ -1,13 +1,13 @@
 import getRandomNumber from '../utils.js';
-import { startGame } from '../index.js';
+import startGame from '../index.js';
 
 const descr = 'What number is missing in the progression?';
 const numberOfElements = 10;
 
-const progression = (numberOfElements) => {
+const progression = (elements) => {
   const result = [];
   for (let num = getRandomNumber(1, 10), i = 0, step = getRandomNumber(1, 10) + 1;
-    i < numberOfElements;
+    i < elements;
     i += 1, num += step) {
     result.push(num);
   }
@@ -16,9 +16,12 @@ const progression = (numberOfElements) => {
 
 const progressionGame = () => {
   const numbersArr = progression(numberOfElements);
-  const answer = numbersArr[getRandomNumber(0, numberOfElements - 1)];
-  const indexOfElement = numbersArr.indexOf(answer);
+  const indexOfElement = getRandomNumber(0, numberOfElements - 1);
+  const answer = numbersArr[indexOfElement];
   numbersArr[indexOfElement] = '..';
+  /* const answer = numbersArr[getRandomNumber(0, numberOfElements - 1)];
+  const indexOfElement = numbersArr.indexOf(answer);
+  numbersArr[indexOfElement] = '..'; */
   const question = `${numbersArr.join(' ')}`;
   return [question, answer];
 };
